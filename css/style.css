@@ -1,0 +1,38 @@
+
+
+header .card{
+    width: 70%;
+}
+
+.heigCaro{
+    height: 700px;
+}
+
+.heigCaro a{
+    width: 350px !important;
+}
+@media only screen and (max-width: 1286px) {
+    header .card{
+        font-size: 85%;
+    }
+}
+
+@media only screen and (max-width: 1107px) {
+    header .card{
+        width: 100%;
+        font-size: 85%;
+    }
+}
+@media only screen and (max-width: 760px) {
+    header .card{
+        width: 100%;
+        font-size: 70%;
+    }
+}
+
+#map-canvas {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 15px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HET</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/Materialize/bin/materialize.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/Materialize/bin/materialize.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/scriptWeb.js"></script>
+
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="nav-wrapper blue-grey darken-1">
+            <a href="#!" class="brand-logo">Hospital Elias Toro</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nuestro_hospital.html">Nuestro Hospital</a></li>
+                <li><a href="especialidad.html">Especialidades</a></li>
+                <li><a href="galerias.html">Galeria</a></li>
+                <li><a href="directorio.html">Directorio Médico</a></li>
+                <li><a href="contactanos.html">Contáctenos</a></li>
+                <li><a href="novedades.html">Novedades</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nuestro_hospital.html">Nuestro Hospital</a></li>
+                <li><a href="especialidad.html">Especialidades</a></li>
+                <li><a href="galerias.html">Galeria</a></li>
+                <li><a href="directorio.html">Directorio Médico</a></li>
+                <li><a href="contactanos.html">Contáctenos</a></li>
+                <li><a href="novedades.html">Novedades</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</header>
+
+<section>
+    <div class="row">
+        <h3 class="center-align">Contáctenos</h3>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col s6">
+                    <h2>Send us an email</h2>
+                    <form method="post"  class="panel">
+                        <div class="row">
+                            <div class="input-field col s8">
+                                <input id="contact_name" name="contact_name" type="text" class="validate">
+                                <label for="contact_name">Your name</label>
+                            </div>
+
+                            <div class="input-field col s8">
+                                <input id="contact_email" name="contact_email" type="email" class="validate">
+                                <label for="contact_email">Your email</label>
+                            </div>
+                            <div class="input-field col s8">
+                                <input id="contact_subject" name="contact_subject" type="text" class="validate">
+                                <label for="contact_subject">Subject</label>
+                            </div>
+                            <div class="input-field col s8">
+                                <textarea id="contact_message" name="contact_message" class="materialize-textarea"></textarea>
+                                <label for="contact_message" class="">Message</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col s12">
+                                <button class="btn waves-effect waves-light " type="submit">Send
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+            </div>
+            <div class="col s6">
+                <div class="row">
+                    <section>
+                        <div class="title">Info</div>
+                        <p>email@email.com</p>
+                        <p>Tlf Contact</p>
+                        <p>Direccion</p>
+                    </section>
+                </div>
+                <div class="row">
+                    <div id="map-canvas"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="page-footer blue-grey darken-1">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+
+                <p class="grey-text text-lighten-4">Use rows and columns here to organize footer
+                    content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2015 Copyright Leonor Guzman
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

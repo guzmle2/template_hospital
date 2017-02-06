@@ -1,0 +1,21 @@
+{
+  "name": "Hospital Elias Toro",
+  "authors": [
+    "Leonor Guzman <ronoel54@gmail.com>"
+  ],
+  "description": "Servicio Comunitario Adriana Jimenez para el Hospital Elias Toro",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#~0.97.5"
+  }
+}
